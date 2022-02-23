@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "Test Injection",
+    "description": "This is a test injection extension",
+    "version": "1.0.0",
+    "content_security_policy":{
+        "extension_pages": "script-src 'self' 'sha256-ZB4S3fpmqhkYmY2fAkJhOuCiCW9xtnSo9QaJPSzPH7Q='; object-src 'self'"
+    },
+    "icons": {
+        "16": "/images/icon16.png",
+        "48": "/images/icon48.png",
+        "128": "/images/icon128.png"
+    },
+    "content_scripts": [{
+        "matches": ["<all_urls>"],
+        "js": ["/scripts/injection.js"]
+    }]
+}
