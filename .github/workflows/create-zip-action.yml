@@ -7,14 +7,14 @@ jobs:
   # this workflow has only one job, to build
   build:
     runs-on: ubuntu-latest
-    
+
     steps:
       # checks out the repo so that the workflow can access it
       - uses: actions/checkout@v3
 
       # Execute the shell script that we have defined for it
       - name: Run the zip script
-        run: ./zip.sh
+        run: sh ./zip.sh
 
       - name: List files in the repository
         run: |
