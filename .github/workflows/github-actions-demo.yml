@@ -1,7 +1,7 @@
 name: GitHub Actions For Tags
 on: [push]
 tags:
-  - '*'
+  - 'v1.1'
 jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
