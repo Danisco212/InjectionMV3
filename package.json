@@ -1,0 +1,11 @@
+{
+  "name": "chrome_web_extension",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Danisco212/InjectionMV3.git",
+  "author": "Danisco212 <danielchibuikem@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "delete-file": "sh ./zip.sh"
+  }
+}

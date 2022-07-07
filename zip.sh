@@ -1,1 +1,2 @@
-echo "This is something that we need to echo here"
+rm sample.txt
+echo "sample.txt is removed"
