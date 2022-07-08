@@ -6,6 +6,7 @@
   "author": "Danisco212 <danielchibuikem@gmail.com>",
   "license": "MIT",
   "scripts": {
+    "build": "sh ./build.sh",
     "delete-file": "sh ./zip.sh"
   }
 }
